@@ -1,0 +1,8 @@
+name: bravos
+image: quay.io/shadabahmed/postgres:9.5
+
+app:
+  public: false
+  container:
+    count: 3
+    port: 8080
